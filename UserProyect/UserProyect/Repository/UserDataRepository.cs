@@ -49,7 +49,7 @@ public class UserDataRepository : IUserData
                       Name = @Name,
                       Email = @Email,
                       Password = @Password,
-                      IdProfile = @IdProfile,
+                      IdProfile = @IdProfile
                       Where Id = @Id and IsActive != 1";
 
         var param = new DynamicParameters();
